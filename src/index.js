@@ -1,5 +1,8 @@
-import './styles/src.scss';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './component/App.js';
 
-document.write('<div class="my-test-class">webpack setup is working...</div>');
+
+ReactDOM.render(<App />, document.getElementById('app'));
 
 console.log("I am done");
