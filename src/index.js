@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './component/App.js';
+
+import {Chat} from './features/login/components';
 
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<Chat />, document.getElementById('app'));
 
 console.log("I am done");
