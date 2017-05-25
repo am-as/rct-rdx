@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import {Chat} from './features/login/components';
+import {Login} from './features/login';
 
 
-ReactDOM.render(<Chat />, document.getElementById('app'));
+ReactDOM.render(<Login />, document.getElementById('app'));
 
 console.log("I am done");
