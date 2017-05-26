@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import {Login} from './features/login';
+
+import {default as FChat} from './features/login';
 
 
-ReactDOM.render(<Login />, document.getElementById('app'));
+ReactDOM.render(<FChat />, document.getElementById('app'));
 
 console.log("I am done");
