@@ -1,2 +1,3 @@
-export {default as Login} from './login.js';
+import Login from './login.js';
+export {Login}
 
